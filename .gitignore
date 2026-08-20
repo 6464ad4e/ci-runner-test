@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+build
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.claude/*
+!.claude/settings.json
+!.claude/agents/
+!.claude/agents/**
+!.claude/rules/
+!.claude/rules/**
+!.claude/skills/
+!.claude/skills/**
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env
+.env.e2e
+.cert
+package-lock.json
+
+# Playwright — real session storage state and run artifacts, never committed
+e2e/.auth/
+e2e/test-results/
+e2e/playwright-report/
+blob-report/
+playwright/.cache/

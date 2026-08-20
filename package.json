@@ -1,0 +1,16 @@
+{
+  "name": "ci-runner-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/6464ad4e/ci-runner-test.git",
+  "author": "6464ad4e <107412723+6464ad4e@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "test": "echo 'no tests yet' && exit 0"
+  },
+  "dependencies": {
+    "eslint": "^10.8.1"
+  }
+}
