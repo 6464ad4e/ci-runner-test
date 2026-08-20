@@ -1,4 +1,4 @@
-const greet = (name: string): string => {
+const greet = (name: string): number => {
   return `Hello, ${name}`;
 };
 
