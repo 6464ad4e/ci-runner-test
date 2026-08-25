@@ -2,4 +2,4 @@ const greet = (name: string): string => {
   return `Hello, ${name}`;
 };
 
-console.log(greet('World, test!'));
+console.log(greet('World, test! Telegram!'));
